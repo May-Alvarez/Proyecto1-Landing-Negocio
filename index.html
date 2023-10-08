@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/banner/banner_boton.css">
     <link rel="stylesheet" href="assets/css/texto.css">
     <link rel="stylesheet" href="assets/css/productos/productos.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <title>PROYECTO 1: Landing de Negocio</title>
 </head>
 <body>
@@ -40,7 +41,7 @@
             <div class="banner__suscribete">
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Ingresa tu correo" aria-label="Ingresa tu correo" aria-describedby="button-addon2">
-                    <button class="btn btn-outline-dark" type="button" id="button-addon2">Enviar</button>
+                    <button class="btn btn-outline-dark" type="button">Enviar</button>
                 </div>
             </div>
         </section>
@@ -51,18 +52,35 @@
 
         <section class="productos">
             <article class="producto">
-                <img class="producto__img" src="assets/img/yasu-shots-_y6hMz1pJC0-unsplash.jpg" alt="producto1">
-                <a class="producto__boton" href="#">Ver</a>
+                <div class="card">
+                    <img src="assets/img/ian-dooley-TT-ROxWj9nA-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </article>
             <article class="producto">
-                <img class="producto__img" src="assets/img/podmatch-xcQWU0Eff-U-unsplash.jpg" alt="producto2">
-                <a class="producto__boton" href="#">Ver</a>
+                <div class="card">
+                    <img src="assets/img/brooke-cagle-z1B9f48F5dc-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </article>
             <article class="producto">
-                <img class="producto__img" src="assets/img/kate-skumen-PJRabkuH3_Q-unsplash.jpg" alt="producto2">
-                <a class="producto__boton" href="#">Ver</a>
+                <div class="card">
+                    <img src="assets/img/taylor-brandon-d-HOgxTgtZY-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </article>
+
         </section>
+
     </main>
     
     <footer>
@@ -79,18 +97,20 @@
             <div class="footer__suscribete">
                 <div class="suscribete">
                     <h3 class="suscribete__titulo">Escribenos</h3>
-                    <label class="suscribete__input"></label>
-                    <a class="suscribete__boton" href="#">Unirse</a>
-
-                </div>
-
-                <div class="footer__ayuda">
-                    <h3 class="ayuda__titulo">¿Necesitas Ayuda?</h3>
-                    <p class="ayuda__numero">123-456-6789</p>
-                    <p class="ayuda__correo">info@alguien.com</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Ingresar Correo" aria-label="Ingresar Correo" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button">Unirse</button>
+                    </div>
                 </div>
             </div>
+
+            <div class="footer__ayuda">
+                <h3 class="ayuda__texto">¿Necesitas Ayuda?</h3>
+                <p class="ayuda__texto">123-456-6789</p>
+                <p class="ayuda__texto">info@alguien.com</p>
+            </div>
         </div>
+
         <div class="footer_derechos">
             <p>
                 © 2022 Mayra Alvarez. Todos los derechos reservados. Esta es una página de aterrizaje ficticia para fines académicos

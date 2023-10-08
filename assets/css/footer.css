@@ -1,0 +1,24 @@
+.footer{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+.suscribete__titulo{
+    padding: 1rem;
+}
+
+.footer__ayuda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.ayuda__texto{
+    padding: 0.2rem;
+}
+
+.footer_derechos{
+    text-align: center;
+}

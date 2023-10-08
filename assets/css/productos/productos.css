@@ -1,0 +1,10 @@
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0rem 5rem 1rem 5rem;
+}
+
+.card{
+    width: 18rem;
+}
