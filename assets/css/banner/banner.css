@@ -1,0 +1,54 @@
+.banner {
+    position: inherit;
+}
+
+.banner__imagen {
+    background: url("../../img/felipe-galvan-AhfrA5VQNpM-unsplash.jpg") no-repeat center / cover;
+    width: 100%;
+}
+
+.banner__titulo {
+    color: var(--fuente-blanco);
+    font-family: Pacifico, cursive;
+    position: absolute;
+    left: 70%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 60%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.banner__subtitulo{
+    color: var(--fuente-blanco);
+    font-family: Montserrat, Bold;
+    text-transform: uppercase;
+    position: absolute;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    transform: translate(-50%, 8rem);
+    top: 70%;
+    left: 70%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagen {
+        height: calc(100vh + 51px);
+    }
+    .banner__titulo {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagen {
+        height: calc(100vh + 10rem);
+        position: absolute;
+    }
+    .banner__titulo {
+        font-size: 5.0625rem;
+    }
+    .banner__subtitulo{
+        top: 52%;
+    }
+}

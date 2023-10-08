@@ -1,0 +1,11 @@
+.texto{
+    padding: 2rem;
+    margin-top: 55%;
+    text-align: center;
+}
+
+.texto h3 {
+    color: #1E1E1E;
+    font-family: Montserrat, SemiBold;
+    font-size: 3.1875rem;
+}

@@ -15,17 +15,21 @@
     position: absolute;
     background-color: var(--background-blanco);
     max-width: 100%;
+    z-index: 100;
 }
 
 .head__logo {
     margin-bottom: .5rem;
     max-width: 40%;
+    display: flex;
+    justify-self: center;
 }
 
 .head__navegacion {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-self: center;
 }
 
 .head__enlace {

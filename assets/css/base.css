@@ -10,9 +10,9 @@
     --boton-azul: #0D202F;
     --boton-azul-claro: #477BAD;
 
-    --fuente-ceniza-claro: #666666;
     --fuente-ceniza-oscuro: #4F4C4C;
     --fuente-negro: #000;
+    --fuente-blanco: #fdfdfd;
 
     --planes-card-start: #035A76;
     --planes-card-ultra: #690F8E;
@@ -29,11 +29,6 @@
 body {
     font-family: var(--open-sans);
     background: var(--background-ceniza-claro);
-}
-
-.container {
-    padding-right: 6%;
-    padding-left: 6%;
 }
 
 .boton {
