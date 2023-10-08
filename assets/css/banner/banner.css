@@ -9,9 +9,9 @@
 
 .banner__titulo {
     color: var(--fuente-blanco);
-    font-family: Pacifico, cursive;
+    font-family: var(--pacifico-Cursive);
     position: absolute;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75); 
+    text-shadow: var(--banner-titulo); 
     text-align: center;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -19,10 +19,10 @@
 
 .banner__subtitulo{
     color: var(--fuente-blanco);
-    font-family: Montserrat, Bold;
+    font-family: var(--montserrat-Bold);
     text-transform: uppercase;
     position: absolute;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    text-shadow: var(--banner-subtiulo);
     text-align: center;
     transform: translate(-50%, 8rem);
 }

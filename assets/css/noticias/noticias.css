@@ -1,6 +1,6 @@
 .noticias{
     display: flex;
-    background: #f4eddd;
+    background: var(--background-crema);
     flex-wrap: wrap;
     justify-content: center;
     padding: 0rem 5rem 1rem 5rem;

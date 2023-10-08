@@ -1,8 +1,8 @@
 .categorias__titulo{
     padding: 0.5rem;
     text-align: initial;
-    color: #1E1E1E;
-    font-family: Montserrat, SemiBold;
+    color: var(--fuente-ceniza-oscuro);
+    font-family: var(--montserrat-SemiBold);
     font-size: 1.5rem;
     margin-left: 15%;
 }

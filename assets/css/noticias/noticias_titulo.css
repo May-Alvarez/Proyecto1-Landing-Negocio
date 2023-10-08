@@ -1,8 +1,8 @@
 .noticia__head{
     text-align: center;
-    color: #1E1E1E;
-    font-family: Montserrat, SemiBold;
-    background: #f4eddd;
+    color: var(--fuente-ceniza-oscuro);
+    font-family: var(--montserrat-SemiBold);
+    background: var(--background-crema);
     max-width: 100%;
 }
 

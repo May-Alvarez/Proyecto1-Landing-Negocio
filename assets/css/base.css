@@ -1,33 +1,27 @@
 :root {
-    --background-llamada-mobile: #DFE3F5;
-    --background-blanco: #FFFFFF;
-    --background-azul-claro: #DFE3F5;
+    
+    --background-blanco: #fcfcfc;
     --background-ceniza-claro: #F7F4F4;
-    --background-ceniza-medio: #D9D9D9;
+    --background-crema: #f4eddd;
+    
 
-    --border-cabecera-mobile: #103D4A;
-
-    --boton-azul: #0D202F;
-    --boton-azul-claro: #477BAD;
-
-    --fuente-ceniza-oscuro: #4F4C4C;
-    --fuente-negro: #000;
+    --fuente-ceniza-oscuro: #1E1E1E;
+    --fuente-negro: #0e0d0d;
     --fuente-blanco: #fdfdfd;
 
-    --planes-card-start: #035A76;
-    --planes-card-ultra: #690F8E;
-    --planes-card-mega: #B00024;
+    --banner-titulo: 0 4px 4px #000000bf;
+    --banner-subtiulo: 0 4px 4px #000000bf;
 
-    --fuente-enlace: #0006FF;
-
-    --background-footer: #333333;
+    --background-footer: #E4E4E4;
 
     --montserrat: 'Montserrat', sans-serif;
-    --open-sans: 'Open Sans', sans-serif;
+    --montserrat-Bold: 'Montserrat', Bold;
+    --montserrat-SemiBold: Montserrat, SemiBold;
+    --pacifico-Cursive: 'Pacifico', cursive;
 }
 
 body {
-    font-family: var(--open-sans);
+    font-family: var(--montserrat);
     background: var(--background-ceniza-claro);
 }
 

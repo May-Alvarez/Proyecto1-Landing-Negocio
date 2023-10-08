@@ -1,5 +1,5 @@
 .footer{
-    background: #e4e4e4;
+    background: var(--background-footer);
     padding: 16px 0;
     clear: both;
     max-width: 100%;
