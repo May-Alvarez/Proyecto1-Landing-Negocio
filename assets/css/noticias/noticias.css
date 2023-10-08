@@ -2,8 +2,9 @@
     display: flex;
     background: #f4eddd;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0rem 5rem 1rem 5rem;
+    max-width: 100%;
 }
 
 .noticia{
@@ -24,4 +25,12 @@
 
 .card__noticiaTitulo{
     text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .noticias{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }

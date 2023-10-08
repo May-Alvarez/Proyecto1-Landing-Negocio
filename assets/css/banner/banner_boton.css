@@ -1,4 +1,18 @@
 .banner__suscribete{
-    padding: 1rem 25rem 0 25rem;
-    transform: translate(22%, 30rem);
+    transform: translate(32%, -20rem);
+    padding: 1rem 6rem 0rem 0rem;
+}
+
+@media screen and (min-width: 767px) {
+    .banner__suscribete{
+        transform: translate(2%, -20rem);
+        padding: 0rem 0rem 0rem 21rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__suscribete{
+        padding: 1rem 25rem 0 25rem;
+        transform: translate(22%, -24rem);
+    }
 }

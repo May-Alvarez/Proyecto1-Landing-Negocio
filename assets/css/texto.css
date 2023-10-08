@@ -1,6 +1,6 @@
 .texto{
     padding: 2rem;
-    margin-top: 56%;
+    margin-top: -20%;
     text-align: center;
 }
 
@@ -8,4 +8,16 @@
     color: #1E1E1E;
     font-family: Montserrat, SemiBold;
     font-size: 3.1875rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .texto{
+        margin-top: 56%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .texto{
+        margin-top: -6%;
+    }
 }

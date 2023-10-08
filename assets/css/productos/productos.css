@@ -2,9 +2,10 @@
     font-family: Montserrat, SemiBold;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0rem 5rem 1rem 5rem;
     background: #f4eddd;
+    max-width: 100%;
 }
 
 .productos__titulo{
@@ -13,6 +14,7 @@
     color: #1E1E1E;
     font-size: 1.5rem;
     background: #f4eddd;
+    max-width: 100%;
 }
 
 .card__producto{
@@ -26,4 +28,16 @@
 
 .card{
     width: 18rem;
+}
+
+.producto{
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .productos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }

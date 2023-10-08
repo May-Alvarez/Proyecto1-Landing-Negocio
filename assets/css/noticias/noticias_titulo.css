@@ -3,6 +3,7 @@
     color: #1E1E1E;
     font-family: Montserrat, SemiBold;
     background: #f4eddd;
+    max-width: 100%;
 }
 
 .noticias__titulo{
