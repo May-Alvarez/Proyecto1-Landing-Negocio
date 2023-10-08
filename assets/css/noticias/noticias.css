@@ -1,0 +1,27 @@
+.noticias{
+    display: flex;
+    background: #f4eddd;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0rem 5rem 1rem 5rem;
+}
+
+.noticia{
+    grid-template-columns: repeat(3, minmax(1px, 1fr));
+    grid-gap: 24px 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card__noticia{
+    width: 20rem;
+}
+
+.card__noticiaCuerpo{
+    display: flex;
+    flex-direction: column;
+}
+
+.card__noticiaTitulo{
+    text-align: center;
+}

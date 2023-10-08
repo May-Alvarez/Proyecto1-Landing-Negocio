@@ -1,4 +1,9 @@
 .footer{
+    background: #e4e4e4;
+    padding: 16px 0;
+    clear: both;
+}
+.footer_secciones{
     display: grid;
     grid-template-columns: 33% 33% 33%;
     text-align: center;
@@ -21,4 +26,13 @@
 
 .footer_derechos{
     text-align: center;
+}
+
+.redesSociales{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 10%;
+    width: 70px;
+    height: 25px;
+    background-size: auto 20%;
 }

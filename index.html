@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;family=Pacifico&amp;display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/head.css">
     <link rel="stylesheet" href="assets/css/banner/banner.css">
     <link rel="stylesheet" href="assets/css/banner/banner_boton.css">
     <link rel="stylesheet" href="assets/css/texto.css">
+    <link rel="stylesheet" href="assets/css/categorias/categorias.css">
     <link rel="stylesheet" href="assets/css/productos/productos.css">
+    <link rel="stylesheet" href="assets/css/separador/separador.css">
+    <link rel="stylesheet" href="assets/css/noticias/noticias_titulo.css">
+    <link rel="stylesheet" href="assets/css/noticias/noticias.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <title>PROYECTO 1: Landing de Negocio</title>
 </head>
@@ -50,31 +55,105 @@
             <h3>Todo el año</h3>
         </section>
 
+        <section class="categorias">
+            <h2 class="categorias__titulo">Categorias Populares</h2>
+            <div class="categorias__enlaces">
+                <ul>
+                    <li class="categoria__enlace">
+                        <img class="categoria__img" src="assets/img/categorias/top.avif" alt="Tops">
+                        <a href="#">Tops</a>
+                    </li>
+                    <li class="categoria__enlace">
+                        <img class="categoria__img" src="assets/img/categorias/pantalon.avif" alt="Pantalones">
+                        <a href="#">Pantalones</a>
+                    </li>
+                    <li class="categoria__enlace">
+                        <img class="categoria__img" src="assets/img/categorias/camisa.avif" alt="Camisas">
+                        <a href="#">Camisas y blusas</a>
+                    </li>
+                    <li class="categoria__enlace">
+                        <img class="categoria__img" src="assets/img/categorias/vestidos.avif" alt="Vestidos">
+                        <a href="#">Vestidos</a>
+                    </li>
+                    <li class="categoria__enlace">
+                        <img class="categoria__img" src="assets/img/categorias/playera.avif" alt="Playeras">
+                        <a href="#">Playeras y polos</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <h2 class="productos__titulo">Prendas clave para el otoño</h2>
         <section class="productos">
             <article class="producto">
                 <div class="card">
                     <img src="assets/img/ian-dooley-TT-ROxWj9nA-unsplash.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="card-body card__producto">
+                        <h5 class="card-title card__titulo">Playera Calavera</h5>
+                        <a href="#" class="btn btn-outline-dark">Ver</a>
                     </div>
                 </div>
             </article>
             <article class="producto">
                 <div class="card">
                     <img src="assets/img/brooke-cagle-z1B9f48F5dc-unsplash.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="card-body card__producto">
+                        <h5 class="card-title card__titulo">Sudadera</h5>
+                        <a href="#" class="btn btn-outline-dark">ver</a>
                     </div>
                 </div>
             </article>
             <article class="producto">
                 <div class="card">
                     <img src="assets/img/taylor-brandon-d-HOgxTgtZY-unsplash.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="card-body card__producto">
+                        <h5 class="card-title card__titulo">Vestido</h5>
+                        <a href="#" class="btn btn-outline-dark">ver</a>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="separador">
+            <h2 class="separador__titulo">Prendas frescas para disfrutar del clima cálido</h2>
+            <div class="separador__botones">
+                <button type="button" class="btn btn-outline-dark separador__boton">Mujer</button>
+                <button type="button" class="btn btn-outline-dark separador__boton">Hombre</button>
+                <button type="button" class="btn btn-outline-dark separador__boton">Bebes</button>
+                <button type="button" class="btn btn-outline-dark separador__boton">Niños</button>
+            </div>
+        </section>
+
+        <div class="noticia__head">
+            <h2 class="noticias__titulo">Revisa</h2>
+            <h2 class="noticias__subtitulo"> Un MUNDO de inspiración</h2>
+        </div>
+        <section class="noticias">
+            <article class="noticia">
+                <div class="card card__noticia">
+                    <img src="assets/img/ian-dooley-TT-ROxWj9nA-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body card__noticiaCuerpo">
+                        <h5 class="card-title card__noticiaTitulo">Card title</h5>
+                        <a href="#" class="btn btn-outline-secondary">Leer historia</a>
+                    </div>
+                </div>
+            </article>
+            <article class="noticia">
+                <div class="card card__noticia">
+                    <img src="assets/img/brooke-cagle-z1B9f48F5dc-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body card__noticiaCuerpo">
+                        <h5 class="card-title card__noticiaTitulo">Card title</h5>
+                        <a href="#" class="btn btn-outline-secondary">Leer historia</a>
+                    </div>
+                </div>
+            </article>
+            <article class="noticia">
+                <div class="card card__noticia">
+                    <img src="assets/img/taylor-brandon-d-HOgxTgtZY-unsplash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body card__noticiaCuerpo">
+                        <h5 class="card-title card__noticiaTitulo">Card title</h5>
+                        <a href="#" class="btn btn-outline-secondary">Leer historia</a>
                     </div>
                 </div>
             </article>
@@ -83,14 +162,14 @@
 
     </main>
     
-    <footer>
-        <div class="footer">
+    <footer class="footer">
+        <div class="footer_secciones">
             <div class="footer__redesSociales">
                 <ul>
-                    <li><div class="redesSociales__facebook"></div></li>
-                    <li><div class="redesSociales__instagram"></div></li>
-                    <li><div class="redesSociales__twitter"></div></li>
-                    <li><div class="redesSociales__github"></div></li>
+                    <li class="redesSociales"><img class="facebook" src="assets/img/footer/facebook.png" alt="Facebook"></li>
+                    <li class="redesSociales"><img class="instagram" src="assets/img/footer/instagram.png" alt="Instagram"></li>
+                    <li class="redesSociales"><img class="twitter" src="assets/img/footer/twitter.png" alt="Twitter"></li>
+                    <li class="redesSociales"><img class="github" src="assets/img/footer/github.png" alt="Github"></li>
                 </ul>
             </div>
 
@@ -113,7 +192,7 @@
 
         <div class="footer_derechos">
             <p>
-                © 2022 Mayra Alvarez. Todos los derechos reservados. Esta es una página de aterrizaje ficticia para fines académicos
+                © 2023 Mayra Alvarez. Todos los derechos reservados. Esta es una página de aterrizaje ficticia para fines académicos
             </p>
         </div>
     </footer>

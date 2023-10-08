@@ -1,0 +1,21 @@
+.separador{
+    padding: 1.65rem;
+    background-color: #f3f3f3;
+}
+
+.separador__titulo{
+    text-align: center;
+    color: #1E1E1E;
+    font-family: Montserrat, SemiBold;
+    font-size: 2.5rem;
+}
+
+.separador__botones{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.separador__boton{
+    margin-left: 2.5rem;
+}

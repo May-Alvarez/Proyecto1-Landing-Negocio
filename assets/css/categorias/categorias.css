@@ -1,0 +1,28 @@
+.categorias__titulo{
+    padding: 0.5rem;
+    text-align: initial;
+    color: #1E1E1E;
+    font-family: Montserrat, SemiBold;
+    font-size: 1.5rem;
+    margin-left: 15%;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.categoria__enlace{
+    font-size: 1.1rem;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0.7rem;
+}
+
+.categoria__img{
+    display: flex;
+    margin-top: 10%;
+    background-size: auto 20%;
+}
